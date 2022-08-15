@@ -1,0 +1,554 @@
+
+
+body{
+background-image:url('');
+background-size: 1900px 850px;
+margin:0;
+font-family: 'Montserrat';
+}
+
+h1{
+    font-family: 'Montserrat';
+    src: url('../font/Montserrat-SemiBold.ttf');
+    letter-spacing: 10px;
+    line-height: 1;
+    margin-top: 80px;
+
+}
+
+
+
+h2{
+
+    letter-spacing: 1px;
+    line-height: 0.5;
+    margin: 0;
+    font-family: 'Montserrat';
+    src: url('../font/Montserrat-SemiBold.ttf');
+}
+
+h4{
+    font-family: 'Montserrat';
+    src: url('../font/Montserrat-SemiBold.ttf');
+    letter-spacing: 2px;
+    line-height: 1;
+    font-size: 15px;
+
+
+}
+
+.menu{
+
+width:100%;
+padding:0;
+margin:0 auto;
+position:relative;
+background:white;
+overflow:hidden;
+
+}
+
+.menu ul{
+
+
+margin:0;
+padding:10;
+list-style:none;
+line-height:45px;
+display:inline-block;
+left:45%;
+position: relative;
+
+
+
+
+}
+
+
+
+.menu li{
+
+    display:inline-block;
+    right:50%;
+    position: relative;
+
+}
+
+.menu ul li a{
+
+background:white;
+text-decoration:none;
+width:350px;
+height:30px;
+display:block;
+text-align:center;
+color:black;
+font-size:13px;
+font-family:montserrat;
+letter-spacing:0.5px;
+
+}
+
+.menu li a:hover{
+
+color:orange;
+opacity:0.5;
+font-size:13px;
+
+}
+
+.container {
+    height: 200px;
+    margin: auto;
+    padding:10px;
+    width:70%;
+    height:600px;
+    border: 0px solid;
+    background-color:rgba(255,255,255,0.5);
+    position:relative;
+}
+
+.container2 {
+    height: 700px;
+    margin: auto;
+    padding:10px;
+    width:60%;
+    height:700px;
+    border: 0px solid;
+    background-color:rgba(255,255,255,0.5);
+    position:relative;
+}
+
+.container3 {
+
+    margin:30px;
+    border-radius: 25px;
+    padding:10px;
+    width:70%;
+    height:200px;
+    border: 0px solid;
+    background-color:rgb(197, 63, 168);
+    position:relative;
+}
+
+.container4 {
+
+
+    margin:30px;
+    border-radius: 25px;
+    padding:10px;
+    width:70%;
+    height:200px;
+    border: 0px solid;
+    background-color:rgb(230, 255, 2);
+    position:relative;
+}
+
+.container5 {
+
+
+    margin:30px;
+    border-radius: 25px;
+    padding:10px;
+    width:70%;
+    height:200px;
+    border: 0px solid;
+    background-color:rgb(223, 203, 115);
+    position:relative;
+}
+
+.container6 {
+
+
+    margin:30px;
+    border-radius: 25px;
+    padding:10px;
+    width:70%;
+    height:200px;
+    border: 0px solid;
+    background-color:rgb(64, 219, 77);
+    position:relative;
+}
+
+ul.tabs
+{
+    padding: 7px 0;
+    font-size: 0px;
+    margin:100;
+    list-style-type: none;
+    text-align: left;
+    position:relative;
+    margin-left: 802px;
+
+
+}
+
+ul.tabs li
+{
+    display: inline;
+    margin: 0;
+    margin-right:3px;
+}
+
+ul.tabs li a
+{
+    font-size:12px;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    padding: 7px 16px;
+    border: 1px solid #CCC;
+    border-bottom-color:#B7B7B7;
+    color: #000;
+    background: #F0F0F0;
+    border-radius: 6px 6px 0px 0px;
+ -moz-border-radius: 6px 6px 0px 0px;
+    outline:none;
+}
+
+ul.tabs li a:hover
+{
+    border: 1px solid #B7B7B7;
+    background:#E0E0E0;
+}
+
+ul.tabs li.selected a
+{
+    position: relative;
+    top: 0px;
+    font-weight:bold;
+    background: rgb(255, 205, 112);
+    border: 1px solid #B7B7B7;
+    border-bottom-color: white;
+}
+
+ul.tabs2
+{
+    padding: 7px 0;
+    font-size: 0px;
+    margin:100;
+    list-style-type: none;
+    text-align: left;
+    position:relative;
+    margin-left: 845px;
+
+
+}
+
+ul.tabs2 li
+{
+    display: inline;
+    margin: 0;
+    margin-right:3px;
+}
+
+ul.tabs2 li a
+{
+    font-size:12px;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    padding: 7px 16px;
+    border: 1px solid #CCC;
+    border-bottom-color:#B7B7B7;
+    color: #000;
+    background: #F0F0F0;
+    border-radius: 6px 6px 0px 0px;
+ -moz-border-radius: 6px 6px 0px 0px;
+    outline:none;
+}
+
+ul.tabs2 li a:hover
+{
+    border: 1px solid #B7B7B7;
+    background:#E0E0E0;
+}
+
+ul.tabs2 li.selected a
+{
+    position: relative;
+    top: 0px;
+    font-weight:bold;
+    background: rgb(255, 205, 112);
+    border: 1px solid #B7B7B7;
+    border-bottom-color: white;
+}
+
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid grey;
+    float: left;
+    width: 50%;
+    background: #f1f1f1;
+  }
+
+  form.example button {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 14px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+
+  form.example button:hover {
+    background: #0b7dda;
+  }
+
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  input[type="checkbox"] + label {
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #fff;
+    border:solid 1px #7d7d7d;
+    padding: 0.2rem 1rem;
+    display: inline-block;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+
+  input[type="checkbox"]:checked + label {
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    background-color: #00e6ee; color: white; border-color:#00e6ee;
+  }
+
+  input[type=text], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 10%;
+    background-color: #003cff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+
+    background-color: #00bef8;
+  }
+
+
+.button {
+    background-color: orange; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family:montserrat;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  /* Set a style for all buttons */
+  .buttonlogin {
+    background-color: #00bef8;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.containerlogin {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 30%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+
+}
+
+.page-item{
+
+display :inline-block;
+padding:5px;
+margin-left:10px;
+
+
+}
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    font-size:15px;
+    color: black;
+    text-align: center;
+    font-family:montserrat;
+    font-size:13px;
+    line-height:10px;
+ }
+
+ .adminfooter {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    font-size:15px;
+    color: black;
+    text-align: center;
+    font-family:montserrat;
+    font-size:13px;
+    line-height:10px;
+ }
+
+ #tag_names input[type="checkbox"] {
+    display: none;
+  }
+
+  #tag_names span {
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    border: 2px solid gold;
+    border-radius: 3px;
+    color: gold;
+  }
+
+  #tag_names input[type="checkbox"]:checked + span {
+    background-color: gold;
+    color: black;
+  }
+
+
+
+
+
+
+
